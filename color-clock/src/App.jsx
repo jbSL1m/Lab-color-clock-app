@@ -4,7 +4,7 @@ import './App.css';
 function App() {
 
   return (
-    <p className="clock">{format(new Date(), 'PPpp')}</p>
+    <h1 className="clock">{format(new Date(), 'PPpp')}</h1>
   )
     
 };
